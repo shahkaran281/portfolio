@@ -6,6 +6,7 @@ import { AiFillLinkedin } from "react-icons/ai";
 import Image from "next/image";
 import deved from "../public/dev-ed-wave.png";
 import favicon from "../public/favicon.ico";
+import caricature from "../public/Caricature.png";
 export default function Home() {
   console.log("Home component rendered"); // Debug log
   return (
@@ -53,14 +54,42 @@ export default function Home() {
           <div className="text-5xl flex justify-center py-3 text-gray-500">
             <AiFillLinkedin />
           </div>
-          <div className="relative mx-auto bg-gradient-to-b from-teal-500 to rounded-full w-80 h-80 mt-20 overflow-hidden">
+          <div className="relative bg-gradient-to-r from-cyan-500 to-teal-500 mx-auto to rounded-full w-80 h-80 mt-20 overflow-hidden">
             <Image
-              src={deved}
-              alt="Dev Ed 3D "
+              src={caricature}
+              alt="Karan Shah Caricature"
               layout="fill"
-              objectFit="cover"
+              objectFit="contain"
+              priority={true}
             />
           </div>
+        </section>
+        <section>
+          <div>
+            <h3 className="text-3xl py-1">Core Competencies</h3>
+            <div className="flex py-5 leading-8 text-gray-700">
+              <ul className="list-disc ml-5 mr-10">
+                <li>
+                  Full-stack web application development using MERN stack and
+                  ASP.NET Core
+                </li>
+                <li>Front-end development with Angular and React</li>
+                <li>RESTful API design, implementation, and integration</li>
+              </ul>
+              <ul className="list-disc ml-5">
+                <li>
+                  Cloud-based application deployment and management (AWS, Google
+                  Cloud Platform)
+                </li>
+                <li>
+                  Mobile-first and responsive web design with cross-platform
+                  compatibility
+                </li>
+                <li>Database management and optimization (SQL and NoSQL)</li>
+              </ul>
+            </div>
+          </div>
+          <div></div>
         </section>
       </main>
     </div>
