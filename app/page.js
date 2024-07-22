@@ -97,9 +97,10 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="lg:flex gap-10">
-            <div className="text-center shadow-lg p-10 rounded-xl my-10 bg-white dark:bg-gray-800 flex-1">
-              {/* <Image src={design} width={100} height={100} alt="design" /> */}
+          {/* New new code Starts */}
+          <div className="lg:flex flex-wrap gap-10">
+            <div className="text-center shadow-lg p-10 rounded-xl my-5 bg-white dark:bg-gray-800 w-full lg:w-[calc(50%-20px)]">
+              {/* <!-- Content for the first div --> */}
               <h3 className="text-lg font-medium pt-8 pb-2 text-gray-900 dark:text-gray-100">
                 Mobile-first Event Information System
               </h3>
@@ -126,10 +127,10 @@ export default function Home() {
                 project management.
               </p>
             </div>
-            <div className="text-center shadow-lg p-10 rounded-xl my-10 bg-white dark:bg-gray-800 flex-1">
-              {/* <Image src={design} width={100} height={100} alt="design" /> */}
+            <div className="text-center shadow-lg p-10 rounded-xl my-5 bg-white dark:bg-gray-800 w-full lg:w-[calc(50%-20px)]">
+              {/* <!-- Content for second inside div --> */}
               <h3 className="text-lg font-medium pt-8 pb-2 text-gray-900 dark:text-gray-100">
-                Event Booking System
+                Event Booking System{" "}
               </h3>
               <p className="py-2 text-justify text-gray-800 dark:text-gray-200">
                 Created a dynamic website that leveraged a third-party API to
@@ -146,11 +147,10 @@ export default function Home() {
                 Utilized cloud deployment strategies to ensure scalability and
                 accessibility of the application, demonstrating knowledge of
                 cloud technologies and system architecture.
-              </p>
+              </p>{" "}
             </div>
-            <div className=" text-center shadow-lg p-10 rounded-xl my-10 bg-white dark:bg-gray-800 flex-1">
-              {/* <Image src={design} width={100} height={100} alt="design" /> */}
-
+            <div className="text-center shadow-lg p-10 rounded-xl my-5 bg-white dark:bg-gray-800 w-full lg:w-[calc(50%-20px)]">
+              {/* <!-- Content for third inside div --> */}
               <h3 className="text-lg font-medium pt-8 pb-2 text-gray-900 dark:text-gray-100">
                 Mortgage-Backed Securities Prepayment Prediction System{" "}
               </h3>
@@ -172,87 +172,7 @@ export default function Home() {
               </p>
             </div>
           </div>
-
-          {/* New Code Starts */}
-          <div className="flex flex-col lg:flex-row gap-10">
-            <div className="w-full lg:w-1/2">
-              <div className="text-center shadow-lg p-10 rounded-xl my-5 bg-white dark:bg-gray-800">
-                <h3 className="text-lg font-medium pt-8 pb-2 text-gray-900 dark:text-gray-100">
-                  Mobile-first Event Information System
-                </h3>
-                <p className="py-2 text-justify text-gray-800 dark:text-gray-200">
-                  Engineered a responsive, mobile-first website that enhanced
-                  event discovery and sharing through dynamic search, map
-                  integration, and social media features, showcasing skills in
-                  full-stack web development and API integration.
-                </p>
-                <p className="py-2 text-justify text-gray-800 dark:text-gray-200">
-                  Implemented user-centric design principles, prioritizing
-                  intuitive navigation and seamless interaction, demonstrating
-                  proficiency in mobile-first and responsive design.
-                </p>
-                <p className="py-2 text-justify text-gray-800 dark:text-gray-200">
-                  Integrated advanced features such as autocomplete
-                  functionality and efficient data storage for improved user
-                  experience, highlighting expertise in performance optimization
-                  and user interface design.
-                </p>
-                <p className="py-2 text-justify text-gray-800 dark:text-gray-200">
-                  Successfully deployed and managed the project on a cloud
-                  platform, demonstrating proficiency in cloud technologies and
-                  project management.
-                </p>
-              </div>
-              <div className="text-center shadow-lg p-10 rounded-xl my-5 bg-white dark:bg-gray-800">
-                {/* <!-- Content for second inside div --> */}
-                <h3 className="text-lg font-medium pt-8 pb-2 text-gray-900 dark:text-gray-100">
-                  Event Booking System{" "}
-                </h3>
-                <p className="py-2 text-justify text-gray-800 dark:text-gray-200">
-                  Created a dynamic website that leveraged a third-party API to
-                  present comprehensive event information in an organized,
-                  user-friendly format, exhibiting skills in API integration and
-                  data management.
-                </p>
-                <p className="py-2 text-justify text-gray-800 dark:text-gray-200">
-                  Developed interactive web pages to enhance user engagement and
-                  streamline content delivery, showcasing abilities in front-end
-                  development and user experience design.
-                </p>
-                <p className="py-2 text-justify text-gray-800 dark:text-gray-200">
-                  Utilized cloud deployment strategies to ensure scalability and
-                  accessibility of the application, demonstrating knowledge of
-                  cloud technologies and system architecture.
-                </p>
-              </div>
-            </div>
-
-            <div className="w-full lg:w-1/2">
-              <div className="text-center shadow-lg p-10 rounded-xl my-5 bg-white dark:bg-gray-800">
-                {/* <!-- Content for third inside div --> */}
-                <h3 className="text-lg font-medium pt-8 pb-2 text-gray-900 dark:text-gray-100">
-                  Mortgage-Backed Securities Prepayment Prediction System{" "}
-                </h3>
-                <p className="py-2 text-justify text-gray-800 dark:text-gray-200">
-                  Led a team in developing a predictive model for customer
-                  prepayment likelihood, resulting in a 14% performance
-                  improvement, showcasing leadership skills and expertise in
-                  data analysis and predictive modeling.
-                </p>
-                <p className="py-2 text-justify text-gray-800 dark:text-gray-200">
-                  Applied advanced statistical and machine learning techniques
-                  to achieve 95.8% accuracy in predictions, demonstrating
-                  proficiency in machine learning and statistical analysis.
-                </p>
-                <p className="py-2 text-justify text-gray-800 dark:text-gray-200">
-                  Designed and implemented a user interface with a REST API,
-                  allowing users to interact with and test the deployed model,
-                  highlighting skills in full-stack development and API design.
-                </p>
-              </div>
-            </div>
-          </div>
-          {/* New Code Ends */}
+          {/* New new code End */}
         </section>
       </main>
     </div>
