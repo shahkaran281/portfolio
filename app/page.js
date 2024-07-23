@@ -19,7 +19,7 @@ export default function Home() {
         <link rel="icon" href={favicon} />
       </Head>
 
-      <main className="bg-white dark:bg-gray-900 px-10 md:px-20 lg:px-40">
+      <main className="bg-white dark:bg-gray-900 px-10 md:px-20 md:text-center lg:px-40">
         <section className="min-h-screen">
           <nav className="py-10 mb-12 flex justify-between dark:text-white">
             <h1 className="font-burtons text-3xl">Karan Manishkumar Shah</h1>
@@ -61,13 +61,14 @@ export default function Home() {
           <div className="text-5xl flex justify-center py-3 text-gray-500  dark:text-gray-400">
             <AiFillLinkedin />
           </div>
-          <div className="relative bg-gradient-to-r from-cyan-500 to-teal-500 mx-auto to rounded-full w-80 h-80 mt-20 overflow-hidden md:h-96 md:w-96">
+          <div className="relative bg-gradient-to-r from-cyan-500 to-teal-500 mx-auto rounded-full w-80 h-80 mt-20 overflow-hidden md:h-96 md:w-96">
             <Image
               src={caricature}
               alt="Karan Shah Caricature"
-              layout="fill"
-              objectFit="contain"
-              priority={true}
+              fill
+              priority
+              sizes="(max-width: 768px) 100vw, 50vw"
+              style={{ objectFit: "contain" }}
             />
           </div>
         </section>
