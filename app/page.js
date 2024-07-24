@@ -2,7 +2,7 @@
 
 import Head from "next/head";
 import { BsFillMoonStarsFill } from "react-icons/bs";
-import { AiFillLinkedin } from "react-icons/ai";
+import { AiFillLinkedin, AiFillGithub } from "react-icons/ai";
 import Image from "next/image";
 import favicon from "../public/favicon.ico";
 import caricature from "../public/Caricature.png";
@@ -60,6 +60,7 @@ export default function Home() {
           </div>
           <div className="text-5xl flex justify-center py-3 text-gray-500  dark:text-gray-400">
             <AiFillLinkedin />
+            <AiFillGithub />
           </div>
           <div className="relative bg-gradient-to-r from-cyan-500 to-teal-500 mx-auto rounded-full w-80 h-80 mt-20 overflow-hidden md:h-96 md:w-96">
             <Image
@@ -75,8 +76,8 @@ export default function Home() {
         <section>
           <div>
             <h3 className="text-3xl py-1 dark:text-white">Core Competencies</h3>
-            <div className="flex py-5 leading-8 text-gray-700 dark:text-gray-200">
-              <ul className="list-disc ml-5 mr-10">
+            <div className="flex justify-center py-5 leading-8 text-gray-700 dark:text-gray-200">
+              <ul className="list-disc text-left ml-5 mr-10">
                 <li>
                   Full-stack web application development using MERN stack and
                   ASP.NET Core
@@ -84,7 +85,7 @@ export default function Home() {
                 <li>Front-end development with Angular and React</li>
                 <li>RESTful API design, implementation, and integration</li>
               </ul>
-              <ul className="list-disc ml-5">
+              <ul className="list-disc text-left ml-5">
                 <li>
                   Cloud-based application deployment and management (AWS, Google
                   Cloud Platform)
@@ -98,10 +99,8 @@ export default function Home() {
             </div>
           </div>
 
-          {/* New new code Starts */}
           <div className="lg:flex flex-wrap gap-10">
             <div className="text-center shadow-lg p-10 rounded-xl my-5 bg-white dark:bg-gray-800 w-full lg:w-[calc(50%-20px)]">
-              {/* <!-- Content for the first div --> */}
               <h3 className="text-lg font-medium pt-8 pb-2 text-gray-900 dark:text-gray-100">
                 Mobile-first Event Information System
               </h3>
@@ -129,9 +128,8 @@ export default function Home() {
               </p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-5 bg-white dark:bg-gray-800 w-full lg:w-[calc(50%-20px)]">
-              {/* <!-- Content for second inside div --> */}
               <h3 className="text-lg font-medium pt-8 pb-2 text-gray-900 dark:text-gray-100">
-                Event Booking System{" "}
+                Event Booking System
               </h3>
               <p className="py-2 text-justify text-gray-800 dark:text-gray-200">
                 Created a dynamic website that leveraged a third-party API to
@@ -151,7 +149,6 @@ export default function Home() {
               </p>{" "}
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-5 bg-white dark:bg-gray-800 w-full lg:w-[calc(50%-20px)]">
-              {/* <!-- Content for third inside div --> */}
               <h3 className="text-lg font-medium pt-8 pb-2 text-gray-900 dark:text-gray-100">
                 Mortgage-Backed Securities Prepayment Prediction System{" "}
               </h3>
@@ -173,7 +170,6 @@ export default function Home() {
               </p>
             </div>
           </div>
-          {/* New new code End */}
         </section>
       </main>
     </div>
