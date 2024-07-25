@@ -10,7 +10,7 @@ import { useState } from "react";
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
-  console.log("Home component rendered"); // Debug log
+  console.log("Home component rendered");
   return (
     <div className={darkMode ? "dark" : ""}>
       <Head>
@@ -19,8 +19,9 @@ export default function Home() {
         <link rel="icon" href={favicon} />
       </Head>
 
-      <main className="bg-white dark:bg-gray-900 px-10 md:px-20 md:text-center lg:px-40">
-        <section className="min-h-screen">
+      <main className="bg-white dark:bg-gray-900 p-10 md:px-20 md:text-center lg:px-40">
+        <section className="p-10">
+          {/* min-h-screen */}
           <nav className="py-10 mb-12 flex justify-between dark:text-white">
             <h1 className="font-burtons text-3xl">Karan Manishkumar Shah</h1>
             <ul className="flex items-center">
@@ -58,9 +59,27 @@ export default function Home() {
               a blend of software development and practical AV experience.
             </p>
           </div>
-          <div className="text-5xl flex justify-center py-3 text-gray-500  dark:text-gray-400">
-            <AiFillLinkedin />
-            <AiFillGithub />
+          <div className="text-6xl flex justify-center py-3 text-gray-500 dark:text-gray-400">
+            <a
+              href="https://github.com/shahkaran281"
+              target="_blank"
+              rel="noreferrer"
+              className="hover:text-blue-600"
+            >
+              <h3 className="icon">
+                <AiFillGithub />
+              </h3>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/karan---shah/"
+              target="_blank"
+              rel="noreferrer"
+              className="hover:text-sky-600"
+            >
+              <h3 className="icon">
+                <AiFillLinkedin />
+              </h3>
+            </a>
           </div>
           <div className="relative bg-gradient-to-r from-cyan-500 to-teal-500 mx-auto rounded-full w-80 h-80 mt-20 overflow-hidden md:h-96 md:w-96">
             <Image
