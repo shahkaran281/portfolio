@@ -9,7 +9,7 @@ import caricature from "../public/Caricature.png";
 import { useState } from "react";
 
 export default function Home() {
-  const [darkMode, setDarkMode] = useState(false);
+  const [darkMode, setDarkMode] = useState(true);
   console.log("Home component rendered");
   return (
     <div className={darkMode ? "dark" : ""}>
@@ -35,6 +35,7 @@ export default function Home() {
                 <a
                   className=" bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8"
                   href="https://drive.google.com/file/d/1eKTR8WQEmFZzQRVxhUZmgm3u9SOiTKBl/view?usp=sharing"
+                  target="_blank"
                 >
                   Resume
                 </a>
@@ -46,17 +47,26 @@ export default function Home() {
               Karan Shah
             </h2>
             <h3 className="text-2xl py-2 dark:text-white md:text-3xl">
-              Software Engineer and AV Engineer
+              Full-Stack Developer | Software Engineer | Problem-Solver
             </h3>
-            <p className="text-md py-5 leading-8  dark:text-gray-200 text-gray-700 md:text-xl max-w-large mx-auto">
-              Versatile full-stack developer skilled in Python and JavaScript,
-              specializing in React and Angular frameworks. Creates responsive,
-              efficient web applications with a focus on user experience.
-              Leverages 2 years of AV engineering background to bring unique
-              problem-solving skills to software projects. Combines front-end
-              expertise with back-end knowledge to deliver scalable solutions.
-              Thrives in collaborative environments, driving innovation through
-              a blend of software development and practical AV experience.
+            <p className="text-md py-4 leading-8  dark:text-gray-200 text-gray-700 md:text-xl max-w-large mx-auto">
+              Versatile full-stack developer with expertise in Python and
+              JavaScript, specializing in React and Angular to build responsive
+              and efficient web applications. With 2 years of experience in AV
+              engineering, I bring a unique problem-solving approach to software
+              development, blending technical knowledge with real-world system
+              integration. Passionate about crafting scalable, user-centric
+              solutions, I thrive in collaborative environments, driving
+              innovation at the intersection of software development and AV
+              technology.
+            </p>
+            <p className="text-md py-3 leading-8  dark:text-gray-200 text-gray-700 md:text-xl max-w-large mx-auto">
+              <b>Tech Stack:</b> Python, JavaScript, TypeScript, React, Angular,
+              Node.js, C#, ASP.NET, Flask, Docker, AWS
+            </p>
+            <p className="text-md py-3 leading-8  dark:text-gray-200 text-gray-700 md:text-xl max-w-large mx-auto">
+              <b>Key Strengths :</b> Full-Stack Development, API Design,
+              Performance Optimization, Distributed Systems
             </p>
           </div>
           <div className="text-6xl flex justify-center py-3 text-gray-500 dark:text-gray-400">
@@ -81,7 +91,7 @@ export default function Home() {
               </h3>
             </a>
           </div>
-          <div className="relative bg-gradient-to-r from-cyan-500 to-teal-500 mx-auto rounded-full w-80 h-80 mt-20 overflow-hidden md:h-96 md:w-96">
+          {/* <div className="relative bg-gradient-to-r from-cyan-500 to-teal-500 mx-auto rounded-full w-80 h-80 mt-20 overflow-hidden md:h-96 md:w-96">
             <Image
               src={caricature}
               alt="Karan Shah Caricature"
@@ -90,7 +100,7 @@ export default function Home() {
               sizes="(max-width: 768px) 100vw, 50vw"
               style={{ objectFit: "contain" }}
             />
-          </div>
+          </div> */}
         </section>
         <section>
           <div>
