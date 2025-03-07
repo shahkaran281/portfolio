@@ -47,26 +47,54 @@ export default function Home() {
               Karan Shah
             </h2>
             <h3 className="text-2xl py-2 dark:text-white md:text-3xl">
-              Full-Stack Developer | Software Engineer | Problem-Solver
+              Software Engineer | Backend & Cloud Enthusiast | Problem-Solver
             </h3>
-            <p className="text-md py-4 leading-8  dark:text-gray-200 text-gray-700 md:text-xl max-w-large mx-auto">
-              Versatile full-stack developer with expertise in Python and
-              JavaScript, specializing in React and Angular to build responsive
-              and efficient web applications. With 2 years of experience in AV
-              engineering, I bring a unique problem-solving approach to software
-              development, blending technical knowledge with real-world system
-              integration. Passionate about crafting scalable, user-centric
-              solutions, I thrive in collaborative environments, driving
-              innovation at the intersection of software development and AV
-              technology.
+            <p className="text-md py-4 leading-8 dark:text-gray-200 text-gray-700 md:text-xl max-w-large mx-auto">
+              I’m a Software Engineer with expertise in{" "}
+              <strong>
+                backend development, distributed systems, and cloud computing
+              </strong>
+              . My proficiency in{" "}
+              <strong>
+                Python, JavaScript, C#, and cloud-native architectures
+              </strong>{" "}
+              allows me to design{" "}
+              <strong>scalable, high-performance applications</strong> that
+              solve complex challenges.
             </p>
-            <p className="text-md py-3 leading-8  dark:text-gray-200 text-gray-700 md:text-xl max-w-large mx-auto">
-              <b>Tech Stack:</b> Python, JavaScript, TypeScript, React, Angular,
-              Node.js, C#, ASP.NET, Flask, Docker, AWS
+            <p className="text-md py-4 leading-8 dark:text-gray-200 text-gray-700 md:text-xl max-w-large mx-auto">
+              I excel in <strong>high-impact environments</strong>, focusing on
+              optimizing system efficiency, building{" "}
+              <strong>fault-tolerant architectures</strong>, and creating{" "}
+              <strong>robust, API-driven solutions</strong>. My background in{" "}
+              <strong>AV systems engineering</strong> provides me with a unique
+              perspective that blends hardware integration with scalable
+              software solutions.
             </p>
-            <p className="text-md py-3 leading-8  dark:text-gray-200 text-gray-700 md:text-xl max-w-large mx-auto">
-              <b>Key Strengths :</b> Full-Stack Development, API Design,
-              Performance Optimization, Distributed Systems
+            <p className="text-md py-4 leading-8 dark:text-gray-200 text-gray-700 md:text-xl max-w-large mx-auto">
+              I am passionate about{" "}
+              <strong>
+                building backend services, optimizing database performance, and
+                ensuring system reliability
+              </strong>
+              . Whether it is{" "}
+              <strong>
+                deploying microservices, enhancing cloud infrastructure, or
+                improving DevOps workflows
+              </strong>
+              , I am dedicated to driving technical excellence.
+            </p>
+            <p className="text-md py-4 leading-8 dark:text-gray-200 text-gray-700 md:text-xl max-w-large mx-auto">
+              Let’s connect to explore how I can contribute to your team! 🚀
+            </p>
+            <p className="text-md py-3 leading-8 dark:text-gray-200 text-gray-700 md:text-xl max-w-large mx-auto">
+              <strong>Tech Stack:</strong> Python, JavaScript, C#, ASP.NET,
+              Flask, Node.js, Docker, AWS, PostgreSQL, MongoDB, Redis
+            </p>
+            <p className="text-md py-3 leading-8 dark:text-gray-200 text-gray-700 md:text-xl max-w-large mx-auto">
+              <strong>Key Strengths:</strong> Backend Development, API Design,
+              Cloud Computing, Performance Optimization, Distributed Systems,
+              Database Management
             </p>
           </div>
           <div className="text-6xl flex justify-center py-3 text-gray-500 dark:text-gray-400">
